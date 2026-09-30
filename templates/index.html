@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDUGenieAI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🎓 EDUGenieAI</h1>
+    <p class="subtitle">AI-Powered Learning Assistant</p>
+
+    <form id="storyForm">
+        <label><strong>Enter your question:</strong></label><br><br>
+
+        <textarea id="story" placeholder="Type your question here..." required></textarea>
+
+        <br><br>
+
+        <button type="submit">Generate Answer</button>
+    </form>
+
+    <div id="loading">Generating...</div>
+
+    <div id="output"></div>
+</div>
+
+<script src="/static/app.js"></script>
+
+</body>
+</html>
